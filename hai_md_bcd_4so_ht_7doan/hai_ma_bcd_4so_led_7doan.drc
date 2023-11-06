@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Aug 07 13:48:25 2023
+
+drc -z hai_ma_bcd_4so_led_7doan.ncd hai_ma_bcd_4so_led_7doan.pcf
+
+DRC detected 0 errors and 0 warnings.

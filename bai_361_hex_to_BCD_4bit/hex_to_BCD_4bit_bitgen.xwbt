@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Hau Tran\Desktop\vhdl\bai_361_hex_to_BCD_4bit\hex_to_BCD_4bit.ncd
+OUTFILE=C:\Users\Hau Tran\Desktop\vhdl\bai_361_hex_to_BCD_4bit\hex_to_BCD_4bit.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Hau Tran\Desktop\vhdl\bai_361_hex_to_BCD_4bit
+LICENSE=ISE
+USER_INFO=212766518_0_0_243

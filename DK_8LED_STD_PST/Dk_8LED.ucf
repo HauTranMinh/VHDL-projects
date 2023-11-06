@@ -1,0 +1,23 @@
+## LED
+
+NET "leds[7]" LOC = "P92";
+NET "leds[6]" LOC = "P88";
+NET "leds[5]" LOC = "P87";
+NET "leds[4]" LOC = "P85";
+NET "leds[3]" LOC = "P84";
+NET "leds[2]" LOC = "P83";
+NET "leds[1]" LOC = "P82";
+NET "leds[0]" LOC = "P81";
+
+
+## buttons
+
+NET "btn" LOC = "P56";
+
+##SWITCH
+
+NET "sw" LOC = "P80";
+
+##CLOCK
+
+NET "CKHT" LOC = "P55";

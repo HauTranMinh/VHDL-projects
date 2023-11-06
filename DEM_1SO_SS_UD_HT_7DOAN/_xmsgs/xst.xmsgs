@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_ena2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_o</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="old" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">IC1/d1hz_r_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DEM_1SO_SS_UD_HT_7DOAN</arg>&gt;.
+</msg>
+
+</messages>
+

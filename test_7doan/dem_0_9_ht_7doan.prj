@@ -1,0 +1,4 @@
+vhdl work "../ds18b20_ver2/dem_1so.vhd"
+vhdl work "../DEM_00_99_HT_7DOAN/giaima_7doan.vhd"
+vhdl work "../CHIA_1XUNG_ENA1HZ/CHIA_ENA1HZ_MODULE.vhd"
+vhdl work "dem_0_9_ht_7doan.vhd"

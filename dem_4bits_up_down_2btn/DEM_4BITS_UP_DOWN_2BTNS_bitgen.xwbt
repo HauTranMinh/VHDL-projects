@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Hau Tran\Desktop\vhdl\dem_4bits_up_down_2btn\DEM_4BITS_UP_DOWN_2BTNS.ncd
+OUTFILE=C:\Users\Hau Tran\Desktop\vhdl\dem_4bits_up_down_2btn\DEM_4BITS_UP_DOWN_2BTNS.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Hau Tran\Desktop\vhdl\dem_4bits_up_down_2btn
+LICENSE=ISE
+USER_INFO=212766518_0_0_243

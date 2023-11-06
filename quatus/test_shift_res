@@ -1,0 +1,9 @@
+transcript off 
+vcom shift_res.vhd
+vcom test_shift_res.vhd
+
+vsim test_shift_res
+add wave sim:/test_shift_res/dev_to_test/* 
+
+run 350 ns
+ 

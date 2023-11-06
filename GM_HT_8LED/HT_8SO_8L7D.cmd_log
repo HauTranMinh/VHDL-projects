@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/GM_HT_8LED/HT_8SO_8L7D.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/GM_HT_8LED/HT_8SO_8L7D.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/GM_HT_8LED/HT_8SO_8L7D.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/GM_HT_8LED/HT_8SO_8L7D.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "HT_8SO_8L7D.ngc" HT_8SO_8L7D.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o HT_8SO_8L7D_map.ncd HT_8SO_8L7D.ngd HT_8SO_8L7D.pcf 
+par -w -intstyle ise -ol high -mt off HT_8SO_8L7D_map.ncd HT_8SO_8L7D.ncd HT_8SO_8L7D.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HT_8SO_8L7D.twx HT_8SO_8L7D.ncd -o HT_8SO_8L7D.twr HT_8SO_8L7D.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/GM_HT_8LED/HT_8SO_8L7D.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/GM_HT_8LED/HT_8SO_8L7D.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Hau Tran/Desktop/vhdl/hai_md_bcd_4so_ht_7doan/dem_8_7doan.ucf" -p xc6slx9-tqg144-3 "HT_8SO_8L7D.ngc" HT_8SO_8L7D.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Hau Tran/Desktop/vhdl/hai_md_bcd_4so_ht_7doan/dem_8_7doan.ucf" -p xc6slx9-tqg144-3 "HT_8SO_8L7D.ngc" HT_8SO_8L7D.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o HT_8SO_8L7D_map.ncd HT_8SO_8L7D.ngd HT_8SO_8L7D.pcf 
+par -w -intstyle ise -ol high -mt off HT_8SO_8L7D_map.ncd HT_8SO_8L7D.ncd HT_8SO_8L7D.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HT_8SO_8L7D.twx HT_8SO_8L7D.ncd -o HT_8SO_8L7D.twr HT_8SO_8L7D.pcf 
+bitgen -intstyle ise -f HT_8SO_8L7D.ut HT_8SO_8L7D.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Hau Tran/Desktop/vhdl/hai_md_bcd_4so_ht_7doan/dem_8_7doan.ucf" -p xc6slx9-tqg144-3 "HT_8SO_8L7D.ngc" HT_8SO_8L7D.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o HT_8SO_8L7D_map.ncd HT_8SO_8L7D.ngd HT_8SO_8L7D.pcf 
+par -w -intstyle ise -ol high -mt off HT_8SO_8L7D_map.ncd HT_8SO_8L7D.ncd HT_8SO_8L7D.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HT_8SO_8L7D.twx HT_8SO_8L7D.ncd -o HT_8SO_8L7D.twr HT_8SO_8L7D.pcf 
+bitgen -intstyle ise -f HT_8SO_8L7D.ut HT_8SO_8L7D.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/GM_HT_8LED/HT_8SO_8L7D.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/GM_HT_8LED/HT_8SO_8L7D.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Hau Tran/Desktop/vhdl/hai_md_bcd_4so_ht_7doan/dem_8_7doan.ucf" -p xc6slx9-tqg144-3 "HT_8SO_8L7D.ngc" HT_8SO_8L7D.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o HT_8SO_8L7D_map.ncd HT_8SO_8L7D.ngd HT_8SO_8L7D.pcf 
+par -w -intstyle ise -ol high -mt off HT_8SO_8L7D_map.ncd HT_8SO_8L7D.ncd HT_8SO_8L7D.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HT_8SO_8L7D.twx HT_8SO_8L7D.ncd -o HT_8SO_8L7D.twr HT_8SO_8L7D.pcf 
+bitgen -intstyle ise -f HT_8SO_8L7D.ut HT_8SO_8L7D.ncd 

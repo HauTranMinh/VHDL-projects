@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ngd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ncd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD_TD.twx DEM_BINARY_8BITS_SS_UD_TD.ncd -o DEM_BINARY_8BITS_SS_UD_TD.twr DEM_BINARY_8BITS_SS_UD_TD.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ngd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ncd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD_TD.twx DEM_BINARY_8BITS_SS_UD_TD.ncd -o DEM_BINARY_8BITS_SS_UD_TD.twr DEM_BINARY_8BITS_SS_UD_TD.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ngd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ncd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD_TD.twx DEM_BINARY_8BITS_SS_UD_TD.ncd -o DEM_BINARY_8BITS_SS_UD_TD.twr DEM_BINARY_8BITS_SS_UD_TD.pcf 
+bitgen -intstyle ise -f DEM_BINARY_8BITS_SS_UD_TD.ut DEM_BINARY_8BITS_SS_UD_TD.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem8bit_td.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem8bit_td.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem8bit_td.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem8bit_td.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ngd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ncd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD_TD.twx DEM_BINARY_8BITS_SS_UD_TD.ncd -o DEM_BINARY_8BITS_SS_UD_TD.twr DEM_BINARY_8BITS_SS_UD_TD.pcf -ucf dem8bit_td.ucf 
+bitgen -intstyle ise -f DEM_BINARY_8BITS_SS_UD_TD.ut DEM_BINARY_8BITS_SS_UD_TD.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem8bit_td.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ngd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ncd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD_TD.twx DEM_BINARY_8BITS_SS_UD_TD.ncd -o DEM_BINARY_8BITS_SS_UD_TD.twr DEM_BINARY_8BITS_SS_UD_TD.pcf -ucf dem8bit_td.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem8bit_td.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ngd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ncd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD_TD.twx DEM_BINARY_8BITS_SS_UD_TD.ncd -o DEM_BINARY_8BITS_SS_UD_TD.twr DEM_BINARY_8BITS_SS_UD_TD.pcf -ucf dem8bit_td.ucf 
+bitgen -intstyle ise -f DEM_BINARY_8BITS_SS_UD_TD.ut DEM_BINARY_8BITS_SS_UD_TD.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_BINARY_8BITS_TU_DONG/DEM_BINARY_8BITS_SS_UD_TD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem8bit_td.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD_TD.ngc" DEM_BINARY_8BITS_SS_UD_TD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ngd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_TD_map.ncd DEM_BINARY_8BITS_SS_UD_TD.ncd DEM_BINARY_8BITS_SS_UD_TD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD_TD.twx DEM_BINARY_8BITS_SS_UD_TD.ncd -o DEM_BINARY_8BITS_SS_UD_TD.twr DEM_BINARY_8BITS_SS_UD_TD.pcf -ucf dem8bit_td.ucf 

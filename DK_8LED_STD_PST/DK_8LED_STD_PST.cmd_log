@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DK_8LED_STD_PST/DK_8LED_STD_PST.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DK_8LED_STD_PST/DK_8LED_STD_PST.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DK_8LED_STD_PST/DK_8LED_STD_PST.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DK_8LED_STD_PST/DK_8LED_STD_PST.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DK_8LED_STD_PST.ngc" DK_8LED_STD_PST.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DK_8LED_STD_PST_map.ncd DK_8LED_STD_PST.ngd DK_8LED_STD_PST.pcf 
+par -w -intstyle ise -ol high -mt off DK_8LED_STD_PST_map.ncd DK_8LED_STD_PST.ncd DK_8LED_STD_PST.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_8LED_STD_PST.twx DK_8LED_STD_PST.ncd -o DK_8LED_STD_PST.twr DK_8LED_STD_PST.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DK_8LED_STD_PST.ngc" DK_8LED_STD_PST.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DK_8LED_STD_PST_map.ncd DK_8LED_STD_PST.ngd DK_8LED_STD_PST.pcf 
+par -w -intstyle ise -ol high -mt off DK_8LED_STD_PST_map.ncd DK_8LED_STD_PST.ncd DK_8LED_STD_PST.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_8LED_STD_PST.twx DK_8LED_STD_PST.ncd -o DK_8LED_STD_PST.twr DK_8LED_STD_PST.pcf 
+bitgen -intstyle ise -f DK_8LED_STD_PST.ut DK_8LED_STD_PST.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dk_8LED.ucf -p xc6slx9-tqg144-3 "DK_8LED_STD_PST.ngc" DK_8LED_STD_PST.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DK_8LED_STD_PST_map.ncd DK_8LED_STD_PST.ngd DK_8LED_STD_PST.pcf 
+par -w -intstyle ise -ol high -mt off DK_8LED_STD_PST_map.ncd DK_8LED_STD_PST.ncd DK_8LED_STD_PST.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_8LED_STD_PST.twx DK_8LED_STD_PST.ncd -o DK_8LED_STD_PST.twr DK_8LED_STD_PST.pcf -ucf Dk_8LED.ucf 
+bitgen -intstyle ise -f DK_8LED_STD_PST.ut DK_8LED_STD_PST.ncd 

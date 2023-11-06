@@ -1,0 +1,8 @@
+vhdl work "../HT_8SO_8L7D_8DP_8ENA_ver2/dahop_8kenh.vhd"
+vhdl work "../HT_8SO_8L7D_8DP_8ENA/giaima_7doan_ena.vhd"
+vhdl work "../hai_md_bcd_4so_ht_7doan/giaima_38h.vhd"
+vhdl work "../hai_md_bcd_4so_ht_7doan/dem_3bits.vhd"
+vhdl work "../HT_8SO_8L7D_8DP_8ENA_ver2/GM_HT_8LED.vhd"
+vhdl work "dem_1so_ss_ud.vhd"
+vhdl work "../../common_use/CHIA_CK1HZ_CK10HZ.vhd"
+vhdl work "DEM_1SO_SSUD_HT_7DOAN.vhd"

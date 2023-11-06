@@ -1,0 +1,50 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Hau Tran/Desktop/vhdl/button_led/button_led_constraints.ucf" -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Hau Tran/Desktop/vhdl/button_led/button_led_constraints.ucf" -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Hau Tran/Desktop/vhdl/button_led/button_led_constraints.ucf" -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf 
+bitgen -intstyle ise -f LED_BLINKING.ut LED_BLINKING.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Hau Tran/Desktop/vhdl/button_led/button_led_constraints.ucf" -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf 
+bitgen -intstyle ise -f LED_BLINKING.ut LED_BLINKING.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf 
+bitgen -intstyle ise -f LED_BLINKING.ut LED_BLINKING.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc blinking.ucf -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf -ucf blinking.ucf 
+bitgen -intstyle ise -f LED_BLINKING.ut LED_BLINKING.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc blinking.ucf -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf -ucf blinking.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/LED_BLINKING_2/LED_BLINKING.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc blinking.ucf -p xc6slx9-tqg144-3 "LED_BLINKING.ngc" LED_BLINKING.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_BLINKING_map.ncd LED_BLINKING.ngd LED_BLINKING.pcf 
+par -w -intstyle ise -ol high -mt off LED_BLINKING_map.ncd LED_BLINKING.ncd LED_BLINKING.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_BLINKING.twx LED_BLINKING.ncd -o LED_BLINKING.twr LED_BLINKING.pcf -ucf blinking.ucf 
+bitgen -intstyle ise -f LED_BLINKING.ut LED_BLINKING.ncd 

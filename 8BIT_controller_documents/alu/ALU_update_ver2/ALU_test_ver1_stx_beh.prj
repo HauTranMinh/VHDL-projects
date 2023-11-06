@@ -1,0 +1,2 @@
+vhdl isim_temp "ALU_update_ver2.vhd"
+vhdl isim_temp "test_ALU_ver2.vhd"

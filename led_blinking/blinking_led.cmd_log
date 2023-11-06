@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/led_blinking/blinking_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "blinking_led.ngc" blinking_led.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blinking_led_map.ncd blinking_led.ngd blinking_led.pcf 
+par -w -intstyle ise -ol high -mt off blinking_led_map.ncd blinking_led.ncd blinking_led.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml blinking_led.twx blinking_led.ncd -o blinking_led.twr blinking_led.pcf 

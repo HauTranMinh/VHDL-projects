@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Jul 24 12:13:49 2023
+
+drc -z PHATHIEN_MUC1_3XUNG.ncd PHATHIEN_MUC1_3XUNG.pcf
+
+DRC detected 0 errors and 0 warnings.

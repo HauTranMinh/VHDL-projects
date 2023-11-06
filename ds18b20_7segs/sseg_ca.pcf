@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jul 18 22:59:51 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "switch<0>" LOCATE = SITE "P80" LEVEL 1;
+COMP "switch<1>" LOCATE = SITE "P79" LEVEL 1;
+COMP "switch<2>" LOCATE = SITE "P78" LEVEL 1;
+COMP "switch<3>" LOCATE = SITE "P74" LEVEL 1;
+COMP "anode<0>" LOCATE = SITE "P12" LEVEL 1;
+COMP "anode<1>" LOCATE = SITE "P11" LEVEL 1;
+COMP "anode<2>" LOCATE = SITE "P10" LEVEL 1;
+COMP "anode<3>" LOCATE = SITE "P9" LEVEL 1;
+COMP "anode<4>" LOCATE = SITE "P101" LEVEL 1;
+COMP "anode<5>" LOCATE = SITE "P102" LEVEL 1;
+COMP "anode<6>" LOCATE = SITE "P99" LEVEL 1;
+COMP "anode<7>" LOCATE = SITE "P100" LEVEL 1;
+COMP "ssegs_data<0>" LOCATE = SITE "P119" LEVEL 1;
+COMP "ssegs_data<1>" LOCATE = SITE "P116" LEVEL 1;
+COMP "ssegs_data<2>" LOCATE = SITE "P118" LEVEL 1;
+COMP "ssegs_data<3>" LOCATE = SITE "P124" LEVEL 1;
+COMP "ssegs_data<4>" LOCATE = SITE "P121" LEVEL 1;
+COMP "ssegs_data<5>" LOCATE = SITE "P117" LEVEL 1;
+COMP "ssegs_data<6>" LOCATE = SITE "P115" LEVEL 1;
+COMP "ssegs_data<7>" LOCATE = SITE "P120" LEVEL 1;
+SCHEMATIC END;
+

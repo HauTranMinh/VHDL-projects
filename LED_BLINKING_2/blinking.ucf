@@ -1,0 +1,18 @@
+## LEDS
+
+NET "led_out[0]" LOC = "P92";
+NET "led_out[1]" LOC = "P88";
+NET "led_out[2]" LOC = "P87";
+NET "led_out[3]" LOC = "P85";
+NET "led_out[4]" LOC = "P84";
+NET "led_out[5]" LOC = "P83";
+NET "led_out[6]" LOC = "P82";
+NET "led_out[7]" LOC = "P81";
+
+## CLOCK
+
+NET "clk" LOC = "P55";
+
+## reset
+
+NET "reset" LOC = "P80";

@@ -1,0 +1,112 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml HT_8SO_8L7D_8DP_8ENA.twx HT_8SO_8L7D_8DP_8ENA.ncd -o
+HT_8SO_8L7D_8DP_8ENA.twr HT_8SO_8L7D_8DP_8ENA.pcf
+
+Design file:              HT_8SO_8L7D_8DP_8ENA.ncd
+Physical constraint file: HT_8SO_8L7D_8DP_8ENA.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock CKHT to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+anode<0>    |         9.696(F)|      SLOW  |         5.122(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<1>    |         9.895(F)|      SLOW  |         5.243(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<2>    |         9.913(F)|      SLOW  |         5.292(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<3>    |        10.112(F)|      SLOW  |         5.413(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<4>    |         8.747(F)|      SLOW  |         4.296(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<5>    |         9.015(F)|      SLOW  |         4.495(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<6>    |         8.582(F)|      SLOW  |         4.257(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<7>    |         8.796(F)|      SLOW  |         4.402(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<0>     |         9.107(F)|      SLOW  |         4.669(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<1>     |         8.982(F)|      SLOW  |         4.566(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<2>     |         9.006(F)|      SLOW  |         4.567(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<3>     |         9.393(F)|      SLOW  |         4.837(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<4>     |         9.001(F)|      SLOW  |         4.600(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<5>     |         9.471(F)|      SLOW  |         4.625(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<6>     |         9.075(F)|      SLOW  |         4.635(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<7>     |        14.156(F)|      SLOW  |         4.568(F)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |         |    3.731|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn<0>         |sseg<7>        |   11.261|
+btn<1>         |sseg<7>        |   10.937|
+btn<2>         |sseg<7>        |   11.092|
+btn<3>         |sseg<7>        |   10.963|
+btn<4>         |sseg<7>        |   10.617|
+btn<5>         |sseg<7>        |   10.625|
+btn<6>         |sseg<7>        |   10.651|
+btn<7>         |sseg<7>        |   10.753|
+sw<0>          |sseg<0>        |    8.493|
+sw<0>          |sseg<3>        |    9.153|
+sw<0>          |sseg<4>        |    8.548|
+sw<0>          |sseg<6>        |    8.568|
+sw<0>          |sseg<7>        |    9.198|
+sw<1>          |sseg<0>        |    9.160|
+sw<1>          |sseg<1>        |    9.046|
+sw<1>          |sseg<3>        |    9.458|
+sw<1>          |sseg<4>        |    9.257|
+sw<1>          |sseg<5>        |    9.382|
+sw<1>          |sseg<6>        |    9.340|
+sw<1>          |sseg<7>        |    9.705|
+sw<2>          |sseg<1>        |    8.895|
+sw<2>          |sseg<2>        |    8.919|
+sw<2>          |sseg<5>        |    9.037|
+sw<2>          |sseg<7>        |    8.739|
+sw<3>          |sseg<3>        |   10.133|
+sw<3>          |sseg<4>        |    9.753|
+sw<3>          |sseg<5>        |    9.907|
+sw<3>          |sseg<6>        |    9.603|
+sw<3>          |sseg<7>        |    9.832|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Aug 08 12:41:15 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

@@ -1,0 +1,3 @@
+vhdl work "JS_PST.vhd"
+vhdl work "../CHIA_1XUNG_ENA1HZ/CHIA_ENA1HZ_MODULE.vhd"
+vhdl work "DK_8LED_STD_PST.vhd"

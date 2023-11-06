@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Hau Tran/Desktop/vhdl/PWM_signal/PWM_signal_isim_beh.exe" -prj "C:/Users/Hau Tran/Desktop/vhdl/PWM_signal/PWM_signal_beh.prj" "work.PWM_signal" 

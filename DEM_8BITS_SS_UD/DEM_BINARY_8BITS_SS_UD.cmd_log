@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD.ngc" DEM_BINARY_8BITS_SS_UD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ngd DEM_BINARY_8BITS_SS_UD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ncd DEM_BINARY_8BITS_SS_UD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD.twx DEM_BINARY_8BITS_SS_UD.ncd -o DEM_BINARY_8BITS_SS_UD.twr DEM_BINARY_8BITS_SS_UD.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD.ngc" DEM_BINARY_8BITS_SS_UD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ngd DEM_BINARY_8BITS_SS_UD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ncd DEM_BINARY_8BITS_SS_UD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD.twx DEM_BINARY_8BITS_SS_UD.ncd -o DEM_BINARY_8BITS_SS_UD.twr DEM_BINARY_8BITS_SS_UD.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD.ngc" DEM_BINARY_8BITS_SS_UD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ngd DEM_BINARY_8BITS_SS_UD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ncd DEM_BINARY_8BITS_SS_UD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD.twx DEM_BINARY_8BITS_SS_UD.ncd -o DEM_BINARY_8BITS_SS_UD.twr DEM_BINARY_8BITS_SS_UD.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD.ngc" DEM_BINARY_8BITS_SS_UD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ngd DEM_BINARY_8BITS_SS_UD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ncd DEM_BINARY_8BITS_SS_UD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD.twx DEM_BINARY_8BITS_SS_UD.ncd -o DEM_BINARY_8BITS_SS_UD.twr DEM_BINARY_8BITS_SS_UD.pcf 
+bitgen -intstyle ise -f DEM_BINARY_8BITS_SS_UD.ut DEM_BINARY_8BITS_SS_UD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEM_8BITS_SS_UD.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD.ngc" DEM_BINARY_8BITS_SS_UD.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEM_8BITS_SS_UD.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD.ngc" DEM_BINARY_8BITS_SS_UD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ngd DEM_BINARY_8BITS_SS_UD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ncd DEM_BINARY_8BITS_SS_UD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD.twx DEM_BINARY_8BITS_SS_UD.ncd -o DEM_BINARY_8BITS_SS_UD.twr DEM_BINARY_8BITS_SS_UD.pcf -ucf DEM_8BITS_SS_UD.ucf 
+bitgen -intstyle ise -f DEM_BINARY_8BITS_SS_UD.ut DEM_BINARY_8BITS_SS_UD.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEM_8BITS_SS_UD.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD.ngc" DEM_BINARY_8BITS_SS_UD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ngd DEM_BINARY_8BITS_SS_UD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ncd DEM_BINARY_8BITS_SS_UD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD.twx DEM_BINARY_8BITS_SS_UD.ncd -o DEM_BINARY_8BITS_SS_UD.twr DEM_BINARY_8BITS_SS_UD.pcf -ucf DEM_8BITS_SS_UD.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_8BITS_SS_UD/DEM_BINARY_8BITS_SS_UD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEM_8BITS_SS_UD.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_8BITS_SS_UD.ngc" DEM_BINARY_8BITS_SS_UD.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ngd DEM_BINARY_8BITS_SS_UD.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_8BITS_SS_UD_map.ncd DEM_BINARY_8BITS_SS_UD.ncd DEM_BINARY_8BITS_SS_UD.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_8BITS_SS_UD.twx DEM_BINARY_8BITS_SS_UD.ncd -o DEM_BINARY_8BITS_SS_UD.twr DEM_BINARY_8BITS_SS_UD.pcf -ucf DEM_8BITS_SS_UD.ucf 
+bitgen -intstyle ise -f DEM_BINARY_8BITS_SS_UD.ut DEM_BINARY_8BITS_SS_UD.ncd 

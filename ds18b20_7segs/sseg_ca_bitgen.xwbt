@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Hau Tran\Desktop\vhdl\ds18b20_7segs\sseg_ca.ncd
+OUTFILE=C:\Users\Hau Tran\Desktop\vhdl\ds18b20_7segs\sseg_ca.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Hau Tran\Desktop\vhdl\ds18b20_7segs
+LICENSE=ISE
+USER_INFO=212766518_0_0_243

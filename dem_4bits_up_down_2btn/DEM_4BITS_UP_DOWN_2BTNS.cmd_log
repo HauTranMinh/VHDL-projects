@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_4BITS_UP_DOWN_2BTNS.ngc" DEM_4BITS_UP_DOWN_2BTNS.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_4BITS_UP_DOWN_2BTNS_map.ncd DEM_4BITS_UP_DOWN_2BTNS.ngd DEM_4BITS_UP_DOWN_2BTNS.pcf 
+par -w -intstyle ise -ol high -mt off DEM_4BITS_UP_DOWN_2BTNS_map.ncd DEM_4BITS_UP_DOWN_2BTNS.ncd DEM_4BITS_UP_DOWN_2BTNS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_4BITS_UP_DOWN_2BTNS.twx DEM_4BITS_UP_DOWN_2BTNS.ncd -o DEM_4BITS_UP_DOWN_2BTNS.twr DEM_4BITS_UP_DOWN_2BTNS.pcf 
+bitgen -intstyle ise -f DEM_4BITS_UP_DOWN_2BTNS.ut DEM_4BITS_UP_DOWN_2BTNS.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_4bits_up_down_2buttons.ucf -p xc6slx9-tqg144-3 "DEM_4BITS_UP_DOWN_2BTNS.ngc" DEM_4BITS_UP_DOWN_2BTNS.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_4BITS_UP_DOWN_2BTNS_map.ncd DEM_4BITS_UP_DOWN_2BTNS.ngd DEM_4BITS_UP_DOWN_2BTNS.pcf 
+par -w -intstyle ise -ol high -mt off DEM_4BITS_UP_DOWN_2BTNS_map.ncd DEM_4BITS_UP_DOWN_2BTNS.ncd DEM_4BITS_UP_DOWN_2BTNS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_4BITS_UP_DOWN_2BTNS.twx DEM_4BITS_UP_DOWN_2BTNS.ncd -o DEM_4BITS_UP_DOWN_2BTNS.twr DEM_4BITS_UP_DOWN_2BTNS.pcf -ucf dem_4bits_up_down_2buttons.ucf 
+bitgen -intstyle ise -f DEM_4BITS_UP_DOWN_2BTNS.ut DEM_4BITS_UP_DOWN_2BTNS.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_4bits_up_down_2buttons.ucf -p xc6slx9-tqg144-3 "DEM_4BITS_UP_DOWN_2BTNS.ngc" DEM_4BITS_UP_DOWN_2BTNS.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_4BITS_UP_DOWN_2BTNS_map.ncd DEM_4BITS_UP_DOWN_2BTNS.ngd DEM_4BITS_UP_DOWN_2BTNS.pcf 
+par -w -intstyle ise -ol high -mt off DEM_4BITS_UP_DOWN_2BTNS_map.ncd DEM_4BITS_UP_DOWN_2BTNS.ncd DEM_4BITS_UP_DOWN_2BTNS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_4BITS_UP_DOWN_2BTNS.twx DEM_4BITS_UP_DOWN_2BTNS.ncd -o DEM_4BITS_UP_DOWN_2BTNS.twr DEM_4BITS_UP_DOWN_2BTNS.pcf -ucf dem_4bits_up_down_2buttons.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bits_up_down_2btn/DEM_4BITS_UP_DOWN_2BTNS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_4bits_up_down_2buttons.ucf -p xc6slx9-tqg144-3 "DEM_4BITS_UP_DOWN_2BTNS.ngc" DEM_4BITS_UP_DOWN_2BTNS.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_4BITS_UP_DOWN_2BTNS_map.ncd DEM_4BITS_UP_DOWN_2BTNS.ngd DEM_4BITS_UP_DOWN_2BTNS.pcf 
+par -w -intstyle ise -ol high -mt off DEM_4BITS_UP_DOWN_2BTNS_map.ncd DEM_4BITS_UP_DOWN_2BTNS.ncd DEM_4BITS_UP_DOWN_2BTNS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_4BITS_UP_DOWN_2BTNS.twx DEM_4BITS_UP_DOWN_2BTNS.ncd -o DEM_4BITS_UP_DOWN_2BTNS.twr DEM_4BITS_UP_DOWN_2BTNS.pcf -ucf dem_4bits_up_down_2buttons.ucf 
+bitgen -intstyle ise -f DEM_4BITS_UP_DOWN_2BTNS.ut DEM_4BITS_UP_DOWN_2BTNS.ncd 

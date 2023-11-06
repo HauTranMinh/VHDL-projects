@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Hau Tran/Desktop/alu/ALU_update_ver1.0/ALU_test_ver1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_test_ver1" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/alu_test_ver1/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test_ver1/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test_ver1/alu_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test_ver1/nzvc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nzvc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">nzvc[3:0]</obj_property>
+      <wvobject fp_name="/alu_test_ver1/nzvc[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">nzvc[3]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test_ver1/nzvc[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">nzvc[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test_ver1/nzvc[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">nzvc[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test_ver1/nzvc[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">nzvc[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/alu_test_ver1/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

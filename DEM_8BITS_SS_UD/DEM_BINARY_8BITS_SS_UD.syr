@@ -1,0 +1,415 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: DEM_BINARY_8BITS_SS_UD.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DEM_BINARY_8BITS_SS_UD.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DEM_BINARY_8BITS_SS_UD"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : DEM_BINARY_8BITS_SS_UD
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Hau Tran\Desktop\vhdl\DEM_8BITS_SS_UD\DEM_8BITS_SS_UD.vhd" into library work
+Parsing entity <DEM_8BITS_SS_UD>.
+Parsing architecture <Behavioral> of entity <dem_8bits_ss_ud>.
+Parsing VHDL file "C:\Users\Hau Tran\Desktop\vhdl\CHIA_1XUNG_ENA1HZ\CHIA_ENA1HZ_MODULE.vhd" into library work
+Parsing entity <CHIA_ENA1HZ_MODULE>.
+Parsing architecture <Behavioral> of entity <chia_ena1hz_module>.
+Parsing VHDL file "C:\Users\Hau Tran\Desktop\vhdl\DEM_8BITS_SS_UD\DEM_BINARY_8BITS_SS_UD.vhd" into library work
+Parsing entity <DEM_BINARY_8BITS_SS_UD>.
+Parsing architecture <Behavioral> of entity <dem_binary_8bits_ss_ud>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <DEM_BINARY_8BITS_SS_UD> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CHIA_ENA1HZ_MODULE> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DEM_8BITS_SS_UD> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <DEM_BINARY_8BITS_SS_UD>.
+    Related source file is "C:\Users\Hau Tran\Desktop\vhdl\DEM_8BITS_SS_UD\DEM_BINARY_8BITS_SS_UD.vhd".
+    Summary:
+	no macro.
+Unit <DEM_BINARY_8BITS_SS_UD> synthesized.
+
+Synthesizing Unit <CHIA_ENA1HZ_MODULE>.
+    Related source file is "C:\Users\Hau Tran\Desktop\vhdl\CHIA_1XUNG_ENA1HZ\CHIA_ENA1HZ_MODULE.vhd".
+    Found 26-bit register for signal <d1hz_r>.
+    Found 27-bit adder for signal <n0009> created at line 49.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+Unit <CHIA_ENA1HZ_MODULE> synthesized.
+
+Synthesizing Unit <DEM_8BITS_SS_UD>.
+    Related source file is "C:\Users\Hau Tran\Desktop\vhdl\DEM_8BITS_SS_UD\DEM_8BITS_SS_UD.vhd".
+    Found 8-bit register for signal <q_r>.
+    Found 8-bit adder for signal <q_r[7]_GND_6_o_add_3_OUT> created at line 1241.
+    Found 8-bit subtractor for signal <GND_6_o_GND_6_o_sub_2_OUT<7:0>> created at line 1308.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <DEM_8BITS_SS_UD> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 27-bit adder                                          : 1
+ 8-bit addsub                                          : 1
+# Registers                                            : 2
+ 26-bit register                                       : 1
+ 8-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <CHIA_ENA1HZ_MODULE>.
+The following registers are absorbed into counter <d1hz_r>: 1 register on signal <d1hz_r>.
+Unit <CHIA_ENA1HZ_MODULE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DEM_8BITS_SS_UD>.
+The following registers are absorbed into counter <q_r>: 1 register on signal <q_r>.
+Unit <DEM_8BITS_SS_UD> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 26-bit up counter                                     : 1
+ 8-bit updown counter                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DEM_BINARY_8BITS_SS_UD> ...
+
+Optimizing unit <DEM_8BITS_SS_UD> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DEM_BINARY_8BITS_SS_UD, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : DEM_BINARY_8BITS_SS_UD.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 156
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 25
+#      LUT2                        : 27
+#      LUT3                        : 1
+#      LUT4                        : 2
+#      LUT6                        : 22
+#      MUXCY                       : 32
+#      VCC                         : 1
+#      XORCY                       : 34
+# FlipFlops/Latches                : 34
+#      FD                          : 26
+#      FDC                         : 1
+#      FDCE                        : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 3
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              34  out of  11440     0%  
+ Number of Slice LUTs:                   88  out of   5720     1%  
+    Number used as Logic:                88  out of   5720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     88
+   Number with an unused Flip Flop:      54  out of     88    61%  
+   Number with an unused LUT:             0  out of     88     0%  
+   Number of fully used LUT-FF pairs:    34  out of     88    38%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    102    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CKHT                               | BUFGP                  | 34    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.137ns (Maximum Frequency: 241.733MHz)
+   Minimum input arrival time before clock: 4.728ns
+   Maximum output required time after clock: 4.453ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CKHT'
+  Clock period: 4.137ns (frequency: 241.733MHz)
+  Total number of paths / destination ports: 2444 / 41
+-------------------------------------------------------------------------
+Delay:               4.137ns (Levels of Logic = 3)
+  Source:            IC1/d1hz_r_1 (FF)
+  Destination:       IC1/d1hz_r_0 (FF)
+  Source Clock:      CKHT falling
+  Destination Clock: CKHT falling
+
+  Data Path: IC1/d1hz_r_1 to IC1/d1hz_r_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.981  IC1/d1hz_r_1 (IC1/d1hz_r_1)
+     LUT6:I0->O           13   0.203   1.037  IC1/PWR_4_o_d1hz_r[25]_equal_2_o<25>14_SW0 (N7)
+     LUT6:I4->O           14   0.203   0.958  IC1/PWR_4_o_d1hz_r[25]_equal_2_o<25> (IC1/PWR_4_o_d1hz_r[25]_equal_2_o)
+     LUT2:I1->O            1   0.205   0.000  IC1/d1hz_r_0_rstpot (IC1/d1hz_r_0_rstpot)
+     FD:D                      0.102          IC1/d1hz_r_0
+    ----------------------------------------
+    Total                      4.137ns (1.160ns logic, 2.977ns route)
+                                       (28.0% logic, 72.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CKHT'
+  Total number of paths / destination ports: 104 / 23
+-------------------------------------------------------------------------
+Offset:              4.728ns (Levels of Logic = 5)
+  Source:            swicth<0> (PAD)
+  Destination:       IC2/q_r_0 (FF)
+  Destination Clock: CKHT falling
+
+  Data Path: swicth<0> to IC2/q_r_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.222   0.931  swicth_0_IBUF (swicth_0_IBUF)
+     LUT4:I0->O            8   0.203   1.147  IC1/ena1hz<25>_SW0 (N13)
+     LUT6:I1->O            1   0.203   0.000  IC2/Mcount_q_r_lut<0> (IC2/Mcount_q_r_lut<0>)
+     XORCY:LI->O           1   0.136   0.580  IC2/Mcount_q_r_xor<0> (IC2/Result<0>)
+     LUT6:I5->O            1   0.205   0.000  IC2/q_r_0_rstpot (IC2/q_r_0_rstpot)
+     FDC:D                     0.102          IC2/q_r_0
+    ----------------------------------------
+    Total                      4.728ns (2.071ns logic, 2.657ns route)
+                                       (43.8% logic, 56.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CKHT'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.453ns (Levels of Logic = 2)
+  Source:            IC2/q_r_0 (FF)
+  Destination:       leds<0> (PAD)
+  Source Clock:      CKHT falling
+
+  Data Path: IC2/q_r_0 to leds<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.447   0.650  IC2/q_r_0 (IC2/q_r_0)
+     INV:I->O              1   0.206   0.579  IC2/q<0>1_INV_0 (leds_0_OBUF)
+     OBUF:I->O                 2.571          leds_0_OBUF (leds<0>)
+    ----------------------------------------
+    Total                      4.453ns (3.224ns logic, 1.229ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |    4.137|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.63 secs
+ 
+--> 
+
+Total memory usage is 4487420 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

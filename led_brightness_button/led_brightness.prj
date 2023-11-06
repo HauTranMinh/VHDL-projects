@@ -1,0 +1,3 @@
+vhdl work "PWM.vhd"
+vhdl work "counter.vhd"
+vhdl work "led_brightness.vhd"

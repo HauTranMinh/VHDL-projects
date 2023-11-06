@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/dem_4bti_db_ena1hz/DEM_BINARY_4BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_4BITS.ngc" DEM_BINARY_4BITS.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_4BITS_map.ncd DEM_BINARY_4BITS.ngd DEM_BINARY_4BITS.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_4BITS_map.ncd DEM_BINARY_4BITS.ncd DEM_BINARY_4BITS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_4BITS.twx DEM_BINARY_4BITS.ncd -o DEM_BINARY_4BITS.twr DEM_BINARY_4BITS.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_BINARY_4BITS.ngc" DEM_BINARY_4BITS.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_4BITS_map.ncd DEM_BINARY_4BITS.ngd DEM_BINARY_4BITS.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_4BITS_map.ncd DEM_BINARY_4BITS.ncd DEM_BINARY_4BITS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_4BITS.twx DEM_BINARY_4BITS.ncd -o DEM_BINARY_4BITS.twr DEM_BINARY_4BITS.pcf 
+bitgen -intstyle ise -f DEM_BINARY_4BITS.ut DEM_BINARY_4BITS.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_4bits_1hz.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_4BITS.ngc" DEM_BINARY_4BITS.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_4bits_1hz.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_4BITS.ngc" DEM_BINARY_4BITS.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_4bits_1hz.ucf -p xc6slx9-tqg144-3 "DEM_BINARY_4BITS.ngc" DEM_BINARY_4BITS.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_BINARY_4BITS_map.ncd DEM_BINARY_4BITS.ngd DEM_BINARY_4BITS.pcf 
+par -w -intstyle ise -ol high -mt off DEM_BINARY_4BITS_map.ncd DEM_BINARY_4BITS.ncd DEM_BINARY_4BITS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_BINARY_4BITS.twx DEM_BINARY_4BITS.ncd -o DEM_BINARY_4BITS.twr DEM_BINARY_4BITS.pcf -ucf dem_4bits_1hz.ucf 
+bitgen -intstyle ise -f DEM_BINARY_4BITS.ut DEM_BINARY_4BITS.ncd 

@@ -1,0 +1,201 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/DEM_1SO_SS_UD_HT_7DOAN_FIX/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/7doan_doC/DEM_1SO_SSUD_HT_7DOAN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dem_1so_7doan.ucf -p xc6slx9-tqg144-3 "DEM_1SO_SSUD_HT_7DOAN.ngc" DEM_1SO_SSUD_HT_7DOAN.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ngd DEM_1SO_SSUD_HT_7DOAN.pcf 
+par -w -intstyle ise -ol high -mt off DEM_1SO_SSUD_HT_7DOAN_map.ncd DEM_1SO_SSUD_HT_7DOAN.ncd DEM_1SO_SSUD_HT_7DOAN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEM_1SO_SSUD_HT_7DOAN.twx DEM_1SO_SSUD_HT_7DOAN.ncd -o DEM_1SO_SSUD_HT_7DOAN.twr DEM_1SO_SSUD_HT_7DOAN.pcf -ucf dem_1so_7doan.ucf 
+bitgen -intstyle ise -f DEM_1SO_SSUD_HT_7DOAN.ut DEM_1SO_SSUD_HT_7DOAN.ncd 

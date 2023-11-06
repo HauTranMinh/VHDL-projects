@@ -1,0 +1,2 @@
+vhdl isim_temp "../../quatus/shift_res.vhd"
+vhdl isim_temp "../../quatus/test_shift_res.vhd"

@@ -1,0 +1,42 @@
+## ENABLE
+
+NET "enable" LOC = "P80";
+NET "enable_data_led" LOC = "P79";
+NET "enable_buzzer" LOC = "P78";
+
+## BUTTONS
+
+NET "button[0]" LOC = "P56";
+NET "button[1]" LOC = "P57";
+NET "button[2]" LOC = "P58";
+NET "button[3]" LOC = "P59";
+NET "button[4]" LOC = "P61";
+NET "button[5]" LOC = "P62";
+NET "button[6]" LOC = "P66";
+NET "button[7]" LOC = "P67";
+
+## TRANS LEDS
+
+NET "led_out[0]" LOC = "P99";
+NET "led_out[1]" LOC = "P100";
+NET "led_out[2]" LOC = "P101";
+NET "led_out[3]" LOC = "P102";
+NET "led_out[4]" LOC = "P12";
+NET "led_out[5]" LOC = "P11";
+NET "led_out[6]" LOC = "P10";
+NET "led_out[7]" LOC = "P9";
+
+## 7SEGS LEDS
+
+NET "data_led[0]" LOC = 	
+NET "data_led[1]" LOC = "P116";
+NET "data_led[2]" LOC = "P117";
+NET "data_led[3]" LOC = "P118";
+NET "data_led[4]" LOC = "P119";
+NET "data_led[5]" LOC = "P120";
+NET "data_led[6]" LOC = "P121";
+NET "data_led[7]" LOC = "P124";
+
+## BUZZER
+
+NET "buzzer" LOC = "P14";

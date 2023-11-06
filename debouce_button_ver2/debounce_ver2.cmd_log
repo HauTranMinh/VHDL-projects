@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/debouce_button_ver2/debounce_ver2.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/debouce_button_ver2/debounce_ver2.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/debouce_button_ver2/debounce_ver2.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/debouce_button_ver2/debounce_ver2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc debounce_btn_ver2.ucf -p xc6slx9-tqg144-3 "debounce_ver2.ngc" debounce_ver2.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o debounce_ver2_map.ncd debounce_ver2.ngd debounce_ver2.pcf 
+par -w -intstyle ise -ol high -mt off debounce_ver2_map.ncd debounce_ver2.ncd debounce_ver2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml debounce_ver2.twx debounce_ver2.ncd -o debounce_ver2.twr debounce_ver2.pcf -ucf debounce_btn_ver2.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/debouce_button_ver2/debounce_ver2.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/debouce_button_ver2/debounce_ver2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc debounce_btn_ver2.ucf -p xc6slx9-tqg144-3 "debounce_ver2.ngc" debounce_ver2.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o debounce_ver2_map.ncd debounce_ver2.ngd debounce_ver2.pcf 
+par -w -intstyle ise -ol high -mt off debounce_ver2_map.ncd debounce_ver2.ncd debounce_ver2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml debounce_ver2.twx debounce_ver2.ncd -o debounce_ver2.twr debounce_ver2.pcf -ucf debounce_btn_ver2.ucf 
+bitgen -intstyle ise -f debounce_ver2.ut debounce_ver2.ncd 

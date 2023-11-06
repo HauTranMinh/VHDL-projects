@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml DEM_00_99_HT_7DOAN.twx DEM_00_99_HT_7DOAN.ncd -o
+DEM_00_99_HT_7DOAN.twr DEM_00_99_HT_7DOAN.pcf -ucf dem_00_99.ucf
+
+Design file:              DEM_00_99_HT_7DOAN.ncd
+Physical constraint file: DEM_00_99_HT_7DOAN.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CKHT
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+btn0        |    3.079(F)|      SLOW  |   -1.297(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sw0         |    2.441(F)|      SLOW  |   -0.770(F)|      SLOW  |CKHT_BUFGP        |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CKHT to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+anode<0>    |         8.319(F)|      SLOW  |         4.392(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<1>    |         7.937(F)|      SLOW  |         4.196(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<0>     |        10.759(F)|      SLOW  |         4.933(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<1>     |        11.086(F)|      SLOW  |         4.778(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<2>     |        11.362(F)|      SLOW  |         4.761(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<3>     |        11.295(F)|      SLOW  |         4.371(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<4>     |        10.546(F)|      SLOW  |         4.295(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<5>     |        10.968(F)|      SLOW  |         4.772(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<6>     |        11.545(F)|      SLOW  |         4.912(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<7>     |        11.121(F)|      SLOW  |         4.480(F)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |         |         |         |    3.562|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Aug 04 14:08:57 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4572 MB
+
+
+

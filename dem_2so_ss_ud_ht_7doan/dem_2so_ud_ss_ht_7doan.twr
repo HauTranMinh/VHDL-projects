@@ -1,0 +1,140 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml dem_2so_ud_ss_ht_7doan.twx dem_2so_ud_ss_ht_7doan.ncd -o
+dem_2so_ud_ss_ht_7doan.twr dem_2so_ud_ss_ht_7doan.pcf -ucf t.ucf
+
+Design file:              dem_2so_ud_ss_ht_7doan.ncd
+Physical constraint file: dem_2so_ud_ss_ht_7doan.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CKHT
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+sw<0>       |    5.154(R)|      SLOW  |   -0.341(R)|      SLOW  |CKHT_BUFGP        |   0.000|
+sw<2>       |    5.855(R)|      SLOW  |   -2.189(R)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CKHT to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+anode<0>    |         9.513(F)|      SLOW  |         4.662(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<1>    |         9.775(F)|      SLOW  |         4.832(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<2>    |         9.431(F)|      SLOW  |         4.581(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<3>    |         9.711(F)|      SLOW  |         4.779(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<4>    |         8.282(F)|      SLOW  |         4.193(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<5>    |         8.516(F)|      SLOW  |         4.385(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<6>    |         8.251(F)|      SLOW  |         4.210(F)|      FAST  |CKHT_BUFGP        |   0.000|
+anode<7>    |         8.430(F)|      SLOW  |         4.347(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<0>     |        12.989(R)|      SLOW  |         5.915(R)|      FAST  |CKHT_BUFGP        |   0.000|
+            |        11.206(F)|      SLOW  |         4.764(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<1>     |        12.677(R)|      SLOW  |         5.739(R)|      FAST  |CKHT_BUFGP        |   0.000|
+            |        11.060(F)|      SLOW  |         4.987(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<2>     |        12.554(R)|      SLOW  |         5.605(R)|      FAST  |CKHT_BUFGP        |   0.000|
+            |        11.158(F)|      SLOW  |         4.728(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<3>     |        12.778(R)|      SLOW  |         5.742(R)|      FAST  |CKHT_BUFGP        |   0.000|
+            |        10.995(F)|      SLOW  |         4.591(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<4>     |        12.614(R)|      SLOW  |         5.661(R)|      FAST  |CKHT_BUFGP        |   0.000|
+            |        11.006(F)|      SLOW  |         4.864(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<5>     |        12.501(R)|      SLOW  |         5.587(R)|      FAST  |CKHT_BUFGP        |   0.000|
+            |        11.105(F)|      SLOW  |         4.710(F)|      FAST  |CKHT_BUFGP        |   0.000|
+sseg<6>     |        12.827(R)|      SLOW  |         5.826(R)|      FAST  |CKHT_BUFGP        |   0.000|
+            |        11.219(F)|      SLOW  |         5.029(F)|      FAST  |CKHT_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock btn to Pad
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                          | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)         | Phase  |
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+sseg<0>     |        15.927(F)|      SLOW  |         8.421(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<1>     |        15.615(F)|      SLOW  |         8.437(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<2>     |        15.492(F)|      SLOW  |         8.311(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<3>     |        15.716(F)|      SLOW  |         8.248(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<4>     |        15.552(F)|      SLOW  |         8.298(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<5>     |        15.439(F)|      SLOW  |         8.293(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<6>     |        15.765(F)|      SLOW  |         8.463(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+
+Clock sw<1> to Pad
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                          | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)         | Phase  |
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+sseg<0>     |        15.213(F)|      SLOW  |         7.963(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<1>     |        14.901(F)|      SLOW  |         7.979(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<2>     |        14.778(F)|      SLOW  |         7.853(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<3>     |        15.002(F)|      SLOW  |         7.790(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<4>     |        14.838(F)|      SLOW  |         7.840(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<5>     |        14.725(F)|      SLOW  |         7.835(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+sseg<6>     |        15.051(F)|      SLOW  |         8.005(F)|      FAST  |IC2/rst_chuc_r[3]_AND_16_o|   0.000|
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+
+Clock to Setup on destination clock CKHT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CKHT           |    6.960|    5.224|         |    6.136|
+btn            |    4.338|   11.043|         |         |
+sw<1>          |    5.135|   11.043|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock btn
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+btn            |         |         |    0.758|    0.758|
+sw<1>          |         |         |    0.044|    0.044|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sw<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+btn            |         |         |    1.433|    1.433|
+sw<1>          |         |         |    0.719|    0.719|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Aug 13 22:37:52 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4572 MB
+
+
+

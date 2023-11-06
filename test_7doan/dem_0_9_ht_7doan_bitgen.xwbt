@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Hau Tran\Desktop\vhdl\test_7doan\dem_0_9_ht_7doan.ncd
+OUTFILE=C:\Users\Hau Tran\Desktop\vhdl\test_7doan\dem_0_9_ht_7doan.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Hau Tran\Desktop\vhdl\test_7doan
+LICENSE=ISE
+USER_INFO=212766518_0_0_243

@@ -1,0 +1,8 @@
+vhdl work "giaima_7doan.vhd"
+vhdl work "giaima_38h.vhd"
+vhdl work "dem_4so2.vhd"
+vhdl work "dem_4so1.vhd"
+vhdl work "dem_3bits.vhd"
+vhdl work "dahop_8kenh.vhd"
+vhdl work "CHIA_CK1HZ_CK10HZ.vhd"
+vhdl work "hai_ma_bcd_4so_led_7doan.vhd"

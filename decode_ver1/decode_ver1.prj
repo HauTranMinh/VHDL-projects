@@ -1,0 +1,3 @@
+vhdl work "decode_select_ins.vhd"
+vhdl work "decode_conditional_ins.vhd"
+vhdl work "decode_ver1.vhd"

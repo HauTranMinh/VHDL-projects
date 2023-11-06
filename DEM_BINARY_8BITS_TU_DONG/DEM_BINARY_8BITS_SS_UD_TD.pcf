@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Jul 23 13:05:21 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "switch" LOCATE = SITE "P80" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "P81" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "P82" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "P83" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "P84" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "P85" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "P87" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "P88" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "P92" LEVEL 1;
+COMP "leds<8>" LOCATE = SITE "P14" LEVEL 1;
+COMP "CKHT" LOCATE = SITE "P55" LEVEL 1;
+COMP "button" LOCATE = SITE "P56" LEVEL 1;
+SCHEMATIC END;
+

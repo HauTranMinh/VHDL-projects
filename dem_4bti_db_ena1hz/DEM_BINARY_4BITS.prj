@@ -1,0 +1,3 @@
+vhdl work "DEM_4BITS.vhd"
+vhdl work "../CHIA_1XUNG_ENA1HZ/CHIA_ENA1HZ_MODULE.vhd"
+vhdl work "DEM_BINARY_4BITS.vhd"

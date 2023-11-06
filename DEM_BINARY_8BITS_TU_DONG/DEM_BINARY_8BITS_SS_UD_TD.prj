@@ -1,0 +1,4 @@
+vhdl work "DEM_8BITS_SS_UD_TD.vhd"
+vhdl work "AUTO_DAO_ENA_UD.vhd"
+vhdl work "../CHIA_1XUNG_ENA1HZ/CHIA_ENA1HZ_MODULE.vhd"
+vhdl work "DEM_BINARY_8BITS_SS_UD_TD.vhd"

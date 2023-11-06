@@ -1,0 +1,28 @@
+##switch
+
+NET "switch[0]" LOC = "P80";
+NET "switch[1]" LOC = "P79";
+NET "switch[2]" LOC = "P78";
+NET "switch[3]" LOC = "P74";
+
+## transitor 
+
+NET "anode[0]" LOC = "P12";
+NET "anode[1]" LOC = "P11";
+NET "anode[2]" LOC = "P10";
+NET "anode[3]" LOC = "P9";
+NET "anode[4]" LOC = "P101";
+NET "anode[5]" LOC = "P102";
+NET "anode[6]" LOC = "P99";
+NET "anode[7]" LOC = "P100";
+
+## 7segs-data
+
+NET "ssegs_data[0]" LOC = "P119";
+NET "ssegs_data[1]" LOC = "P116";
+NET "ssegs_data[2]" LOC = "P118";
+NET "ssegs_data[3]" LOC = "P124";
+NET "ssegs_data[4]" LOC = "P121";
+NET "ssegs_data[5]" LOC = "P117";
+NET "ssegs_data[6]" LOC = "P115";
+NET "ssegs_data[7]" LOC = "P120";

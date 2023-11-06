@@ -1,0 +1,291 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf
+
+Design file:              ALU.ncd
+Physical constraint file: ALU.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |NZVC<0>        |   13.513|
+A<0>           |NZVC<1>        |   16.467|
+A<0>           |NZVC<2>        |   18.484|
+A<0>           |NZVC<3>        |   16.900|
+A<0>           |result<0>      |   16.433|
+A<0>           |result<1>      |   16.091|
+A<0>           |result<2>      |   16.346|
+A<0>           |result<3>      |   15.981|
+A<0>           |result<4>      |   16.404|
+A<0>           |result<5>      |   16.240|
+A<0>           |result<6>      |   16.084|
+A<0>           |result<7>      |   16.563|
+A<1>           |NZVC<0>        |   13.242|
+A<1>           |NZVC<1>        |   16.281|
+A<1>           |NZVC<2>        |   19.782|
+A<1>           |NZVC<3>        |   16.714|
+A<1>           |result<0>      |   18.337|
+A<1>           |result<1>      |   15.905|
+A<1>           |result<2>      |   16.160|
+A<1>           |result<3>      |   15.795|
+A<1>           |result<4>      |   16.218|
+A<1>           |result<5>      |   16.054|
+A<1>           |result<6>      |   15.898|
+A<1>           |result<7>      |   16.377|
+A<2>           |NZVC<0>        |   12.515|
+A<2>           |NZVC<1>        |   15.497|
+A<2>           |NZVC<2>        |   22.600|
+A<2>           |NZVC<3>        |   15.930|
+A<2>           |result<0>      |   21.155|
+A<2>           |result<1>      |   17.424|
+A<2>           |result<2>      |   15.376|
+A<2>           |result<3>      |   15.011|
+A<2>           |result<4>      |   15.434|
+A<2>           |result<5>      |   15.270|
+A<2>           |result<6>      |   15.114|
+A<2>           |result<7>      |   15.593|
+A<3>           |NZVC<0>        |   12.835|
+A<3>           |NZVC<1>        |   15.906|
+A<3>           |NZVC<2>        |   24.983|
+A<3>           |NZVC<3>        |   16.339|
+A<3>           |result<0>      |   23.538|
+A<3>           |result<1>      |   19.807|
+A<3>           |result<2>      |   16.522|
+A<3>           |result<3>      |   15.420|
+A<3>           |result<4>      |   15.843|
+A<3>           |result<5>      |   15.679|
+A<3>           |result<6>      |   15.523|
+A<3>           |result<7>      |   16.002|
+A<4>           |NZVC<0>        |   11.455|
+A<4>           |NZVC<1>        |   15.427|
+A<4>           |NZVC<2>        |   25.967|
+A<4>           |NZVC<3>        |   15.860|
+A<4>           |result<0>      |   24.522|
+A<4>           |result<1>      |   20.791|
+A<4>           |result<2>      |   17.506|
+A<4>           |result<3>      |   14.941|
+A<4>           |result<4>      |   15.364|
+A<4>           |result<5>      |   15.200|
+A<4>           |result<6>      |   15.044|
+A<4>           |result<7>      |   15.523|
+A<5>           |NZVC<0>        |   12.264|
+A<5>           |NZVC<1>        |   15.689|
+A<5>           |NZVC<2>        |   28.280|
+A<5>           |NZVC<3>        |   16.122|
+A<5>           |result<0>      |   26.835|
+A<5>           |result<1>      |   23.104|
+A<5>           |result<2>      |   19.819|
+A<5>           |result<3>      |   16.906|
+A<5>           |result<4>      |   15.626|
+A<5>           |result<5>      |   15.462|
+A<5>           |result<6>      |   15.306|
+A<5>           |result<7>      |   15.785|
+A<6>           |NZVC<0>        |   11.798|
+A<6>           |NZVC<1>        |   14.580|
+A<6>           |NZVC<2>        |   28.131|
+A<6>           |NZVC<3>        |   15.013|
+A<6>           |result<0>      |   26.686|
+A<6>           |result<1>      |   22.955|
+A<6>           |result<2>      |   19.670|
+A<6>           |result<3>      |   16.757|
+A<6>           |result<4>      |   14.792|
+A<6>           |result<5>      |   14.353|
+A<6>           |result<6>      |   14.197|
+A<6>           |result<7>      |   14.676|
+A<7>           |NZVC<0>        |   12.070|
+A<7>           |NZVC<1>        |   16.123|
+A<7>           |NZVC<2>        |   29.376|
+A<7>           |NZVC<3>        |   16.556|
+A<7>           |result<0>      |   27.931|
+A<7>           |result<1>      |   24.200|
+A<7>           |result<2>      |   20.915|
+A<7>           |result<3>      |   18.002|
+A<7>           |result<4>      |   16.060|
+A<7>           |result<5>      |   15.896|
+A<7>           |result<6>      |   15.740|
+A<7>           |result<7>      |   16.219|
+ALU_sel<0>     |NZVC<0>        |   14.672|
+ALU_sel<0>     |NZVC<1>        |   12.933|
+ALU_sel<0>     |NZVC<2>        |   14.974|
+ALU_sel<0>     |NZVC<3>        |   13.366|
+ALU_sel<0>     |result<0>      |   12.077|
+ALU_sel<0>     |result<1>      |   12.056|
+ALU_sel<0>     |result<2>      |   12.882|
+ALU_sel<0>     |result<3>      |   12.131|
+ALU_sel<0>     |result<4>      |   12.871|
+ALU_sel<0>     |result<5>      |   12.498|
+ALU_sel<0>     |result<6>      |   12.574|
+ALU_sel<0>     |result<7>      |   13.029|
+ALU_sel<1>     |NZVC<0>        |   14.379|
+ALU_sel<1>     |NZVC<1>        |   11.377|
+ALU_sel<1>     |NZVC<2>        |   14.004|
+ALU_sel<1>     |NZVC<3>        |   11.514|
+ALU_sel<1>     |result<0>      |   11.534|
+ALU_sel<1>     |result<1>      |   11.025|
+ALU_sel<1>     |result<2>      |   11.834|
+ALU_sel<1>     |result<3>      |   11.636|
+ALU_sel<1>     |result<4>      |   11.990|
+ALU_sel<1>     |result<5>      |   11.579|
+ALU_sel<1>     |result<6>      |   11.604|
+ALU_sel<1>     |result<7>      |   11.177|
+ALU_sel<2>     |NZVC<0>        |   14.586|
+ALU_sel<2>     |NZVC<1>        |   11.660|
+ALU_sel<2>     |NZVC<2>        |   13.898|
+ALU_sel<2>     |NZVC<3>        |   11.783|
+ALU_sel<2>     |result<0>      |   10.956|
+ALU_sel<2>     |result<1>      |   10.610|
+ALU_sel<2>     |result<2>      |   11.525|
+ALU_sel<2>     |result<3>      |   11.492|
+ALU_sel<2>     |result<4>      |   11.255|
+ALU_sel<2>     |result<5>      |   11.064|
+ALU_sel<2>     |result<6>      |   11.498|
+ALU_sel<2>     |result<7>      |   11.446|
+ALU_sel<3>     |NZVC<0>        |   14.770|
+ALU_sel<3>     |NZVC<1>        |   11.418|
+ALU_sel<3>     |NZVC<2>        |   13.856|
+ALU_sel<3>     |NZVC<3>        |   11.411|
+ALU_sel<3>     |result<0>      |   10.890|
+ALU_sel<3>     |result<1>      |   10.450|
+ALU_sel<3>     |result<2>      |   11.575|
+ALU_sel<3>     |result<3>      |   11.316|
+ALU_sel<3>     |result<4>      |   11.499|
+ALU_sel<3>     |result<5>      |   11.971|
+ALU_sel<3>     |result<6>      |   11.456|
+ALU_sel<3>     |result<7>      |   11.074|
+B<0>           |NZVC<0>        |   12.606|
+B<0>           |NZVC<1>        |   15.059|
+B<0>           |NZVC<2>        |   29.395|
+B<0>           |NZVC<3>        |   15.492|
+B<0>           |result<0>      |   27.950|
+B<0>           |result<1>      |   24.219|
+B<0>           |result<2>      |   20.934|
+B<0>           |result<3>      |   18.021|
+B<0>           |result<4>      |   16.056|
+B<0>           |result<5>      |   14.832|
+B<0>           |result<6>      |   14.676|
+B<0>           |result<7>      |   15.155|
+B<1>           |NZVC<0>        |   12.906|
+B<1>           |NZVC<1>        |   15.127|
+B<1>           |NZVC<2>        |   29.455|
+B<1>           |NZVC<3>        |   15.560|
+B<1>           |result<0>      |   28.010|
+B<1>           |result<1>      |   24.279|
+B<1>           |result<2>      |   20.994|
+B<1>           |result<3>      |   18.081|
+B<1>           |result<4>      |   16.116|
+B<1>           |result<5>      |   14.900|
+B<1>           |result<6>      |   14.744|
+B<1>           |result<7>      |   15.223|
+B<2>           |NZVC<0>        |   12.592|
+B<2>           |NZVC<1>        |   15.207|
+B<2>           |NZVC<2>        |   29.228|
+B<2>           |NZVC<3>        |   15.640|
+B<2>           |result<0>      |   27.783|
+B<2>           |result<1>      |   24.052|
+B<2>           |result<2>      |   20.767|
+B<2>           |result<3>      |   17.854|
+B<2>           |result<4>      |   15.889|
+B<2>           |result<5>      |   14.980|
+B<2>           |result<6>      |   14.824|
+B<2>           |result<7>      |   15.303|
+B<3>           |NZVC<0>        |   12.155|
+B<3>           |NZVC<1>        |   14.949|
+B<3>           |NZVC<2>        |   29.975|
+B<3>           |NZVC<3>        |   15.382|
+B<3>           |result<0>      |   28.530|
+B<3>           |result<1>      |   24.799|
+B<3>           |result<2>      |   21.514|
+B<3>           |result<3>      |   18.601|
+B<3>           |result<4>      |   16.636|
+B<3>           |result<5>      |   14.722|
+B<3>           |result<6>      |   14.566|
+B<3>           |result<7>      |   15.045|
+B<4>           |NZVC<0>        |   13.097|
+B<4>           |NZVC<1>        |   15.608|
+B<4>           |NZVC<2>        |   30.463|
+B<4>           |NZVC<3>        |   16.041|
+B<4>           |result<0>      |   29.018|
+B<4>           |result<1>      |   25.287|
+B<4>           |result<2>      |   22.002|
+B<4>           |result<3>      |   19.089|
+B<4>           |result<4>      |   17.124|
+B<4>           |result<5>      |   15.381|
+B<4>           |result<6>      |   15.225|
+B<4>           |result<7>      |   15.704|
+B<5>           |NZVC<0>        |   12.406|
+B<5>           |NZVC<1>        |   14.896|
+B<5>           |NZVC<2>        |   29.480|
+B<5>           |NZVC<3>        |   15.329|
+B<5>           |result<0>      |   28.035|
+B<5>           |result<1>      |   24.304|
+B<5>           |result<2>      |   21.019|
+B<5>           |result<3>      |   18.106|
+B<5>           |result<4>      |   16.141|
+B<5>           |result<5>      |   14.669|
+B<5>           |result<6>      |   14.513|
+B<5>           |result<7>      |   14.992|
+B<6>           |NZVC<0>        |   12.236|
+B<6>           |NZVC<1>        |   14.644|
+B<6>           |NZVC<2>        |   29.616|
+B<6>           |NZVC<3>        |   15.077|
+B<6>           |result<0>      |   28.171|
+B<6>           |result<1>      |   24.440|
+B<6>           |result<2>      |   21.155|
+B<6>           |result<3>      |   18.242|
+B<6>           |result<4>      |   16.277|
+B<6>           |result<5>      |   14.417|
+B<6>           |result<6>      |   14.261|
+B<6>           |result<7>      |   14.740|
+B<7>           |NZVC<0>        |   11.977|
+B<7>           |NZVC<1>        |   14.761|
+B<7>           |NZVC<2>        |   29.470|
+B<7>           |NZVC<3>        |   15.194|
+B<7>           |result<0>      |   28.025|
+B<7>           |result<1>      |   24.294|
+B<7>           |result<2>      |   21.009|
+B<7>           |result<3>      |   18.096|
+B<7>           |result<4>      |   16.131|
+B<7>           |result<5>      |   14.534|
+B<7>           |result<6>      |   14.378|
+B<7>           |result<7>      |   14.857|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Jul 15 15:19:52 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4572 MB
+
+
+

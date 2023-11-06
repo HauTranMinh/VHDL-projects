@@ -1,0 +1,5 @@
+vhdl work "../dem_4bti_db_ena1hz/DEM_4BITS.vhd"
+vhdl work "../debounce_button/lam_hep_xung.vhd"
+vhdl work "../debounce_button/debounce_btn.vhd"
+vhdl work "dem_4bits_btn.vhd"
+vhdl work "debounce_ver2.vhd"

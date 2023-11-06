@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Hau Tran\Desktop\vhdl\chia_2xung_CKHT1hz_CKHT10hz\CHIA_2XUNG_CK1HZ_CK10HZ.ncd
+OUTFILE=C:\Users\Hau Tran\Desktop\vhdl\chia_2xung_CKHT1hz_CKHT10hz\CHIA_2XUNG_CK1HZ_CK10HZ.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Hau Tran\Desktop\vhdl\chia_2xung_CKHT1hz_CKHT10hz
+LICENSE=ISE
+USER_INFO=212766518_0_0_243

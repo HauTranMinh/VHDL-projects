@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/chia_2xung_CKHT1hz_CKHT10hz/CHIA_2XUNG_CK1HZ_CK10HZ.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/chia_2xung_CKHT1hz_CKHT10hz/CHIA_2XUNG_CK1HZ_CK10HZ.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/chia_2xung_CKHT1hz_CKHT10hz/CHIA_2XUNG_CK1HZ_CK10HZ.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/chia_2xung_CKHT1hz_CKHT10hz/CHIA_2XUNG_CK1HZ_CK10HZ.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "CHIA_2XUNG_CK1HZ_CK10HZ.ngc" CHIA_2XUNG_CK1HZ_CK10HZ.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CHIA_2XUNG_CK1HZ_CK10HZ_map.ncd CHIA_2XUNG_CK1HZ_CK10HZ.ngd CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+par -w -intstyle ise -ol high -mt off CHIA_2XUNG_CK1HZ_CK10HZ_map.ncd CHIA_2XUNG_CK1HZ_CK10HZ.ncd CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CHIA_2XUNG_CK1HZ_CK10HZ.twx CHIA_2XUNG_CK1HZ_CK10HZ.ncd -o CHIA_2XUNG_CK1HZ_CK10HZ.twr CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "CHIA_2XUNG_CK1HZ_CK10HZ.ngc" CHIA_2XUNG_CK1HZ_CK10HZ.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CHIA_2XUNG_CK1HZ_CK10HZ_map.ncd CHIA_2XUNG_CK1HZ_CK10HZ.ngd CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+par -w -intstyle ise -ol high -mt off CHIA_2XUNG_CK1HZ_CK10HZ_map.ncd CHIA_2XUNG_CK1HZ_CK10HZ.ncd CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CHIA_2XUNG_CK1HZ_CK10HZ.twx CHIA_2XUNG_CK1HZ_CK10HZ.ncd -o CHIA_2XUNG_CK1HZ_CK10HZ.twr CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+bitgen -intstyle ise -f CHIA_2XUNG_CK1HZ_CK10HZ.ut CHIA_2XUNG_CK1HZ_CK10HZ.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CHIA_CK1HZ_CK10HZ.ucf -p xc6slx9-tqg144-3 "CHIA_2XUNG_CK1HZ_CK10HZ.ngc" CHIA_2XUNG_CK1HZ_CK10HZ.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CHIA_2XUNG_CK1HZ_CK10HZ_map.ncd CHIA_2XUNG_CK1HZ_CK10HZ.ngd CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+par -w -intstyle ise -ol high -mt off CHIA_2XUNG_CK1HZ_CK10HZ_map.ncd CHIA_2XUNG_CK1HZ_CK10HZ.ncd CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CHIA_2XUNG_CK1HZ_CK10HZ.twx CHIA_2XUNG_CK1HZ_CK10HZ.ncd -o CHIA_2XUNG_CK1HZ_CK10HZ.twr CHIA_2XUNG_CK1HZ_CK10HZ.pcf -ucf CHIA_CK1HZ_CK10HZ.ucf 
+bitgen -intstyle ise -f CHIA_2XUNG_CK1HZ_CK10HZ.ut CHIA_2XUNG_CK1HZ_CK10HZ.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/chia_2xung_CKHT1hz_CKHT10hz/CHIA_2XUNG_CK1HZ_CK10HZ.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/chia_2xung_CKHT1hz_CKHT10hz/CHIA_2XUNG_CK1HZ_CK10HZ.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CHIA_CK1HZ_CK10HZ.ucf -p xc6slx9-tqg144-3 "CHIA_2XUNG_CK1HZ_CK10HZ.ngc" CHIA_2XUNG_CK1HZ_CK10HZ.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CHIA_2XUNG_CK1HZ_CK10HZ_map.ncd CHIA_2XUNG_CK1HZ_CK10HZ.ngd CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+par -w -intstyle ise -ol high -mt off CHIA_2XUNG_CK1HZ_CK10HZ_map.ncd CHIA_2XUNG_CK1HZ_CK10HZ.ncd CHIA_2XUNG_CK1HZ_CK10HZ.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CHIA_2XUNG_CK1HZ_CK10HZ.twx CHIA_2XUNG_CK1HZ_CK10HZ.ncd -o CHIA_2XUNG_CK1HZ_CK10HZ.twr CHIA_2XUNG_CK1HZ_CK10HZ.pcf -ucf CHIA_CK1HZ_CK10HZ.ucf 

@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Jul 21 20:18:56 2023
+
+drc -z hex_to_bcd_6bits.ncd hex_to_bcd_6bits.pcf
+
+DRC detected 0 errors and 0 warnings.

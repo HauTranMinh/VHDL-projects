@@ -1,0 +1,95 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_led_constraints.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+netgen -intstyle ise -ar Structure -tm BUTTON_LED -w -dir netgen/synthesis -ofmt vhdl -sim BUTTON_LED.ngc BUTTON_LED_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_led_constraints.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc button_led_constraints.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+netgen -intstyle ise -ar Structure -tm BUTTON_LED -w -dir netgen/synthesis -ofmt vhdl -sim BUTTON_LED.ngc BUTTON_LED_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf 
+bitgen -intstyle ise -f BUTTON_LED.ut BUTTON_LED.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf 
+bitgen -intstyle ise -f BUTTON_LED.ut BUTTON_LED.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f BUTTON_LED.ut BUTTON_LED.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f BUTTON_LED.ut BUTTON_LED.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f BUTTON_LED.ut BUTTON_LED.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/button_led/BUTTON_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc6slx9-tqg144-3 "BUTTON_LED.ngc" BUTTON_LED.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BUTTON_LED_map.ncd BUTTON_LED.ngd BUTTON_LED.pcf 
+par -w -intstyle ise -ol high -mt off BUTTON_LED_map.ncd BUTTON_LED.ncd BUTTON_LED.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BUTTON_LED.twx BUTTON_LED.ncd -o BUTTON_LED.twr BUTTON_LED.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f BUTTON_LED.ut BUTTON_LED.ncd 

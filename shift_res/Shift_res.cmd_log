@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/shift_res/Shift_res.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/shift_res/Shift_res.syr" 

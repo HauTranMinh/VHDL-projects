@@ -1,0 +1,9 @@
+NET "leds[3]" LOC = "P84";
+NET "leds[2]" LOC = "P83";
+NET "leds[1]" LOC = "P82";
+NET "leds[0]" LOC = "P81";
+
+NET "buttons[0]" LOC = "P56";
+NET "buttons[1]" LOC = "P57";
+	
+NET "CKHT" LOC = "P55";

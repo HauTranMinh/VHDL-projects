@@ -1,0 +1,3 @@
+NET "clk" 	LOC = "P55";
+NET "led[1]" LOC = "P88";
+NET "led[0]" LOC = "P92";

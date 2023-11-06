@@ -1,0 +1,2 @@
+vhdl work "decode_7segs.vhd"
+vhdl work "sseg_ca.vhd"

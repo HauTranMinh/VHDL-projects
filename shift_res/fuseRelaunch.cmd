@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Hau Tran/Desktop/vhdl/shift_res/test_shift_res_isim_beh.exe" -prj "C:/Users/Hau Tran/Desktop/vhdl/shift_res/test_shift_res_beh.prj" "work.test_shift_res" 

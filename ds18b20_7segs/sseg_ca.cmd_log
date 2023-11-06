@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.syr" 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "sseg_ca.ngc" sseg_ca.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sseg_ca_map.ncd sseg_ca.ngd sseg_ca.pcf 
+par -w -intstyle ise -ol high -mt off sseg_ca_map.ncd sseg_ca.ncd sseg_ca.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sseg_ca.twx sseg_ca.ncd -o sseg_ca.twr sseg_ca.pcf 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "sseg_ca.ngc" sseg_ca.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sseg_ca_map.ncd sseg_ca.ngd sseg_ca.pcf 
+par -w -intstyle ise -ol high -mt off sseg_ca_map.ncd sseg_ca.ncd sseg_ca.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "sseg_ca.ngc" sseg_ca.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sseg_ca_map.ncd sseg_ca.ngd sseg_ca.pcf 
+par -w -intstyle ise -ol high -mt off sseg_ca_map.ncd sseg_ca.ncd sseg_ca.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sseg_ca.twx sseg_ca.ncd -o sseg_ca.twr sseg_ca.pcf 
+bitgen -intstyle ise -f sseg_ca.ut sseg_ca.ncd 
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_7segs/sseg_ca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sseg.ucf -p xc6slx9-tqg144-3 "sseg_ca.ngc" sseg_ca.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sseg_ca_map.ncd sseg_ca.ngd sseg_ca.pcf 
+par -w -intstyle ise -ol high -mt off sseg_ca_map.ncd sseg_ca.ncd sseg_ca.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sseg_ca.twx sseg_ca.ncd -o sseg_ca.twr sseg_ca.pcf -ucf sseg.ucf 
+bitgen -intstyle ise -f sseg_ca.ut sseg_ca.ncd 

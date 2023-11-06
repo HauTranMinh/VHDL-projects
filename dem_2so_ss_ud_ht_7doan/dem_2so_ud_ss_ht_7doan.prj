@@ -1,0 +1,8 @@
+vhdl work "../../common_use/GT_HT_8LED/giaima_7doan_ena.vhd"
+vhdl work "../../common_use/GT_HT_8LED/giaima_38h.vhd"
+vhdl work "../../common_use/GT_HT_8LED/dem_3bits.vhd"
+vhdl work "../../common_use/GT_HT_8LED/dahop_8kenh.vhd"
+vhdl work "dem_2so_ss_ud.vhd"
+vhdl work "../../common_use/GT_HT_8LED/GM_HT_8LED.vhd"
+vhdl work "../../common_use/CHIA_CK1HZ_CK10HZ.vhd"
+vhdl work "dem_2so_ud_ss_ht_7doan.vhd"

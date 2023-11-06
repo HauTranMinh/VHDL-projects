@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Hau Tran/Desktop/vhdl/dem_000_999_ht_7doan/test_isim_beh.exe -prj C:/Users/Hau Tran/Desktop/vhdl/dem_000_999_ht_7doan/test_beh.prj work.test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Hau Tran/Desktop/vhdl/dem_000_999_ht_7doan/dem_2bits.vhd" into library work
+Parsing VHDL file "C:/Users/Hau Tran/Desktop/vhdl/dem_000_999_ht_7doan/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package math_real
+Compiling architecture behavioral of entity dem_2bits [dem_2bits_default]
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/Hau Tran/Desktop/vhdl/dem_000_999_ht_7doan/test_isim_beh.exe
+Fuse Memory Usage: 36068 KB
+Fuse CPU Usage: 312 ms

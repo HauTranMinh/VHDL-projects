@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_ht_7doan/ds18b20_ht_7doan.xst" -ofn "C:/Users/Hau Tran/Desktop/vhdl/ds18b20_ht_7doan/ds18b20_ht_7doan.syr" 
